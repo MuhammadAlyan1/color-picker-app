@@ -1,0 +1,85 @@
+:root {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* nav */
+nav {
+  padding: 1rem 0px;
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+nav h1 {
+  margin: 0px;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  color: hsl(205, 78%, 60%);
+}
+
+nav a {
+  color: black;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 3rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: hsl(205, 78%, 60%);
+}
+
+/* main */
+main {
+  height: 100%;
+  background-color: pink;
+  display: grid;
+  place-content: center;
+}
+
+main h1 {
+  background-color: black;
+  margin-bottom: 1rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 2.5rem;
+}
+
+main span {
+  color: hsl(205, 78%, 60%);
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+main button {
+  text-transform: uppercase;
+  width: fit-content;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  padding: 0.5rem 1rem;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border: 2px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+main button:hover {
+  background: black !important;
+  color: white;
+  transition: all 0.5s ease;
+}
